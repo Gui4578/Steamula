@@ -1,6 +1,6 @@
-# Próximas Etapas — Steamula 2.0
+# Próximas Etapas: Steamula 2.0
 
-## Fase 2 — Backend
+## Fase 2 - Backend
 
 Implementar:
 
@@ -16,7 +16,7 @@ Implementar:
 
 Substituir services/api.ts por chamadas HTTP reais
 
-## Fase 3 — IA
+## Fase 3 - IA
 
 - Integração com Google Gemini
 - IA consumindo dados do banco
