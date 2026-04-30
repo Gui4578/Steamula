@@ -1,4 +1,3 @@
-// Steamula 2.0 Prisma Schema
 
 generator client {
   provider = "prisma-client-js"
