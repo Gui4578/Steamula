@@ -1,0 +1,45 @@
+@import "./tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  color-scheme: dark;
+  background-color: var(--background);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(77, 112, 255, 0.2), transparent 45%),
+    radial-gradient(circle at 20% 10%, rgba(255, 92, 77, 0.25), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(47, 217, 143, 0.2), transparent 45%),
+    var(--background);
+  color: var(--text-primary);
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
